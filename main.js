@@ -1,25 +1,18 @@
-// current age
-const myAge = 26;
+function main() {
+    const myAge = document.getElementById('age').value;
+    let earlyYears = 2;
 
-// this value will change
-let earlyYears = 2;
+    earlyYears *= 10.5;
 
-earlyYears *= 10.5;
+    let laterYears = myAge - 2;
+    laterYears *= 4;
 
-/* subtract for years already accounted for */
-let laterYears = myAge - 2;
+    const myAgeInDogYears = earlyYears + laterYears;
+    const myName = document.getElementById('name').value.toLowerCase();
 
-// calculate dog years
-laterYears *= 4;
+    document.getElementById('results').innerHTML = `My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`;
 
-// calculate age in dog years
-myAgeInDogYears = earlyYears + laterYears;
-
-// return variable name in lower case
-myName = 'Mak'.toLowerCase();
-
-console.log(`My name is ${myName}. I am ${myAge} years old in human years which is ${myAgeInDogYears} years old in dog years.`);
-
-console.log('early years: ' + earlyYears);
-console.log('my age: ' + myAge);
-console.log('later years: ' + laterYears);
+    console.log('early years: ' + earlyYears);
+    console.log('my age: ' + myAge);
+    console.log('later years: ' + laterYears);
+}
