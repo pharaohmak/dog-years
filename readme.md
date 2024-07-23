@@ -1,9 +1,7 @@
-# Dog Years
+# Age to Dog Years Converter
 
-Dogs mature at a faster rate than human beings. We often say a dog’s age can be calculated in “dog years” to account for their growth compared to a human of the same age. In some ways we could say, time moves quickly for dogs — 8 years in a human’s life equates to 45 years in a dog’s life. How old would you be if you were a dog?
+This project is a simple JavaScript application that converts a person's age into dog years. It takes the user's name and age as input, calculates the equivalent age in dog years, and displays the result on the webpage.
 
-Here’s how you convert your age from “human years” to “dog years”:
+## Project Description
 
-The first two years of a dog’s life count as 10.5 dog years each.
-Each year following equates to 4 dog years.
-Before you start doing the math in your head, let a computer take care of it! With your knowledge of math operators and variables, use JavaScript to convert your human age into dog years.
+The Age to Dog Years Converter is a basic web application designed to demonstrate how to interact with HTML elements using JavaScript. It uses the values from input fields to perform calculations and dynamically update the content on the page. The conversion logic takes into account that the first two years of a dog's life count as 10.5 dog years each, and each subsequent year counts as 4 dog years.
